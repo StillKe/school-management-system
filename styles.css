@@ -1,67 +1,95 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
   margin: 0;
   padding: 0;
 }
 
-.sidebar-toggle {
-  display: none;
-}
-
-.default-sidebar {
+.sidebar {
+  height: 100%;
+  width: 130px;
   position: fixed;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 280px;
-  background-color: #333;
-  color: #fff;
-  overflow-y: auto;
-  transition: transform 0.3s ease;
+  top: 10;
+  left: -300px;
+  background-color: #262e42;
+  color: #ffffff;
+  transition: 0.3s;
   z-index: 1000;
+  overflow-y: auto;
 }
 
-.toggle-btn {
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #1d2334;
+}
+
+.sidebar-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.sidebar-menu {
+  padding: 20px 0;
+}
+
+.menu-item {
   display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #344259;
+}
+
+.close-btn {
+  background-color: transparent;
+  border: none;
   cursor: pointer;
-  padding: 15px;
+  color: #ffffff;
+  font-size: 1.5em;
 }
 
-.toggle-btn span {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 5px 0;
-}
-
-.side-navbar {
-  padding: 20px;
-}
-
-.side-navbar ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.side-navbar ul li {
-  margin-bottom: 10px;
-}
-
-.side-navbar ul li span {
-  display: block;
-  color: #ccc;
-  padding: 10px;
-  transition: color 0.3s ease;
-}
-
-.side-navbar ul li:hover span {
-  color: #fff;
+.close-btn:focus {
+  outline: none;
 }
 
 .main-content {
-  margin-left: 280px; /* Adjust based on sidebar width */
+  margin-left: 0;
+  transition: margin-left 0.3s;
+}
+
+.open-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #1d2334;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 1100;
+}
+
+.open-btn:hover {
+  background-color: #344259;
+}
+
+.content {
   padding: 20px;
+  margin-left: 0px;
+}
+
+.module {
+  display: none;
+  margin-Top: 50px;
+  
+}
+
+.module.active {
+  display: block;
 }
