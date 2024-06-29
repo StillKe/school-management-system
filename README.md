@@ -20,10 +20,10 @@ The School Management System is designed to streamline administrative tasks and 
 - **Attendance Tracking: Monitor student and teacher attendance.
 - **Reports and Analytics: Generate reports on various metrics for informed decision-making.
 ### Technologies Used
-- **Frontend: HTML, CSS, JavaScript
-- **Backend: Node.js, Express.js
-- **Database: MongoDB
-- **Other: Bootstrap (for UI design), JWT (for authentication)
+- ** Frontend: HTML, CSS, JavaScript
+- ** Backend: Node.js, Express.js
+- ** Database: MongoDB
+- ** Other: Bootstrap (for UI design), JWT (for authentication)
 ### Installation
 Follow these steps to get the School Management System up and running on your local machine:
 
