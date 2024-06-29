@@ -1,5 +1,9 @@
 # School Management System
-A comprehensive system for managing various aspects of a school including students, teachers, courses, fees, and more.
+A comprehensive system for managing various aspects of a school including 
+- Students
+- Teachers
+- Courses
+- Fees and more.
 
 ## Table of Contents
 1. [About](#about)
