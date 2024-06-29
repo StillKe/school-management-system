@@ -13,17 +13,17 @@ License
 The School Management System is designed to streamline administrative tasks and enhance communication within a school environment. It provides tools to manage student records, attendance, teacher information, course details, fees collection, and more.
 
 ### Features
-- **Student Management: Track student details, attendance records, and academic performance.
-- **Teacher Management: Manage teacher information, assignments, and schedules.
-- **Course Management: Organize courses, syllabi, and grading.
-- **Fees Management: Track fee payments, generate invoices, and manage financial records.
-- **Attendance Tracking: Monitor student and teacher attendance.
-- **Reports and Analytics: Generate reports on various metrics for informed decision-making.
+- Student Management: Track student details, attendance records, and academic performance.
+- Teacher Management: Manage teacher information, assignments, and schedules.
+- Course Management: Organize courses, syllabi, and grading.
+- Fees Management: Track fee payments, generate invoices, and manage financial records.
+- Attendance Tracking: Monitor student and teacher attendance.
+- Reports and Analytics: Generate reports on various metrics for informed decision-making.
 ### Technologies Used
-- ** Frontend: HTML, CSS, JavaScript
-- ** Backend: Node.js, Express.js
-- ** Database: MongoDB
-- ** Other: Bootstrap (for UI design), JWT (for authentication)
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Other: Bootstrap (for UI design), JWT (for authentication)
 ### Installation
 Follow these steps to get the School Management System up and running on your local machine:
 
