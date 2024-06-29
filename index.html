@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Management System</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+  
+    <button class="close-btn" onclick="closeSidebar()">
+      <span>&times;</span>
+    </button>
+  </div>
+  <div class="sidebar-menu">
+    <a href="#" class="menu-item" onclick="openModule('dashboard')">Dashboard</a>
+    <a href="#" class="menu-item" onclick="openModule('students')">Students</a>
+    <a href="#" class="menu-item" onclick="openModule('teachers')">Teachers</a>
+    <a href="#" class="menu-item" onclick="openModule('courses')">Courses</a>
+    <a href="#" class="menu-item" onclick="openModule('attendance')">Attendance</a>
+    <a href="#" class="menu-item" onclick="openModule('grades')">Grades</a>
+  </div>
+</div>
+
+<!-- Main Content -->
+<div class="main-content">
+  <button class="open-btn" onclick="openSidebar()">☰ Open Sidebar</button>
+  <div class="content">
+    <div id="dashboard" class="module">
+      <h1>Dashboard</h1>
+      <p>Welcome to the School Management Dashboard.</p>
+    </div>
+    <div id="students" class="module">
+      <h1>Students</h1>
+      <p>List of students and related actions.</p>
+    </div>
+    <div id="teachers" class="module">
+      <h1>Teachers</h1>
+      <p>List of teachers and related actions.</p>
+    </div>
+    <div id="courses" class="module">
+      <h1>Courses</h1>
+      <p>List of courses and related actions.</p>
+    </div>
+    <div id="attendance" class="module">
+      <h1>Attendance</h1>
+      <p>Manage student attendance records.</p>
+    </div>
+    <div id="grades" class="module">
+      <h1>Grades</h1>
+      <p>Manage student grades and assessments.</p>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
