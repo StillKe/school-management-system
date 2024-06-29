@@ -2,7 +2,7 @@
 A comprehensive system for managing various aspects of a school including students, teachers, courses, fees, and more.
 
 ## Table of Contents
-About
+**About
 Features
 Technologies Used
 Installation
