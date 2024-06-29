@@ -2,13 +2,19 @@
 A comprehensive system for managing various aspects of a school including students, teachers, courses, fees, and more.
 
 ## Table of Contents
-**About
-Features
-Technologies Used
-Installation
-Usage
-Contributing
-License
+1. [About](#about)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+   - [Prerequisites](#prerequisites)
+   - [Clone the Repository](#clone-the-repository)
+   - [Install Dependencies](#install-dependencies)
+   - [Configure Environment Variables](#configure-environment-variables)
+   - [Start the Server](#start-the-server)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+
 ### About
 The School Management System is designed to streamline administrative tasks and enhance communication within a school environment. It provides tools to manage student records, attendance, teacher information, course details, fees collection, and more.
 
